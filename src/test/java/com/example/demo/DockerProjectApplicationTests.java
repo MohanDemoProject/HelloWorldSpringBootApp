@@ -27,5 +27,11 @@ class DockerProjectApplicationTests {
 		assertEquals("Hello Docker", val);
 		
 	}
+	@Test
+	public void failureTest() {
+		
+		assertEquals("success", "failure");
+		
+	}
 
 }
